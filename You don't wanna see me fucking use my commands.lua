@@ -67,4 +67,4 @@ end)
 
 -- Send the welcome message when the script is executed
 sendWelcomeMessage()
--- fixed it again since we dont that version lol
+-- fixed it again since we dont need that version lol
