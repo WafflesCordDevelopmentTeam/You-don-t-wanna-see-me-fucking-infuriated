@@ -10,7 +10,7 @@ local localPlayer = Players.LocalPlayer
 
 -- Function to send the welcome message to all players
 local function sendWelcomeMessage()
-    local welcomeMessage = "Welcome " .. localPlayer.Name .. " to a random Admin Script Made By Pekoara for all 3 games this developer made (You Don't Wanna See Us Group). Thanks for using it! To see commands, do !cmds."
+    local welcomeMessage = "Welcome " .. localPlayer.Name .. " to a random Admin Script Made By Pekoara now wtv do !cmds to look at the list"
     
     -- Using ReplicatedStorage to broadcast the message to all players
     ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(welcomeMessage, "All")
